@@ -1,0 +1,51 @@
+Test generator run GAN_2022-06-20-15:19:10
+ 
+Nombre test: 10000
+Nombre d'échecs: 522
+Nombre de succes: 9478
+Nombre Warning LSP: 0
+
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 100)]             0         
+                                                                 
+ dense (Dense)               (None, 100)               10100     
+                                                                 
+ dropout (Dropout)           (None, 100)               0         
+                                                                 
+ dense_1 (Dense)             (None, 100)               10100     
+                                                                 
+ dropout_1 (Dropout)         (None, 100)               0         
+                                                                 
+ dense_2 (Dense)             (None, 100)               10100     
+                                                                 
+ dense_3 (Dense)             (None, 19)                1919      
+                                                                 
+=================================================================
+Total params: 32,219
+Trainable params: 32,219
+Non-trainable params: 0
+_________________________________________________________________
+
+
+Range:M1: [50, 5000]
+M2: [50, 5000]
+M3: [50, 5000]
+mA: [50, 5000]
+tanB: [2, 60]
+mu: [-10000, 10000]
+At: [-10000, 10000]
+Ab: [-10000, 10000]
+Atau: [-10000, 10000]
+Mq1L: [50, 5000]
+Mq3L: [50, 5000]
+MuR: [50, 5000]
+dR: [50, 5000]
+MtR: [50, 5000]
+MbR: [50, 5000]
+MeL: [50, 5000]
+MtauL: [50, 5000]
+MeR: [50, 5000]
+MtauR: [50, 5000]

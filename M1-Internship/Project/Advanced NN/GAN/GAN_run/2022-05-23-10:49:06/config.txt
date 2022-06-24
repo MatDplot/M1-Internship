@@ -1,0 +1,54 @@
+taile dataset: 100
+taile batch: 10
+nombre epochs: 25
+Nombre d'échecs: 443
+Nombre de succes: 24557
+Nombre Warning LSP: 0
+
+Fonctions d'activations: sigmoid
+Fonctions d'activations output: linear
+Learning rate:0.0001
+Optimizer: <keras.optimizer_v2.adam.Adam object at 0x7f27146427c0>
+
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 4)]               0         
+                                                                 
+ dense (Dense)               (None, 57)                285       
+                                                                 
+ dense_1 (Dense)             (None, 19)                1102      
+                                                                 
+ dense_2 (Dense)             (None, 76)                1520      
+                                                                 
+ dense_3 (Dense)             (None, 19)                1463      
+                                                                 
+ dense_4 (Dense)             (None, 19)                380       
+                                                                 
+=================================================================
+Total params: 4,750
+Trainable params: 4,750
+Non-trainable params: 0
+_________________________________________________________________
+
+
+Range:M1: [50, 5000]
+M2: [50, 5000]
+M3: [50, 5000]
+mA: [50, 5000]
+tanB: [2, 60]
+mu: [-10000, 10000]
+At: [-10000, 10000]
+Ab: [-10000, 10000]
+Atau: [-10000, 10000]
+Mq1L: [50, 5000]
+Mq3L: [50, 5000]
+MuR: [50, 5000]
+dR: [50, 5000]
+MtR: [50, 5000]
+MbR: [50, 5000]
+MeL: [50, 5000]
+MtauL: [50, 5000]
+MeR: [50, 5000]
+MtauR: [50, 5000]

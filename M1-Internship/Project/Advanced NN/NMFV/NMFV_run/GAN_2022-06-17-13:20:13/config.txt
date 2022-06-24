@@ -1,0 +1,103 @@
+K: 100
+train steps: 500
+Nombre d'échecs: 2498
+Nombre de succes: 47502
+Nombre Warning LSP: 0
+
+Fonctions d'activations: relu
+Fonctions d'activations output: sigmoid
+Learning rate:0.001
+Optimizer: <keras.optimizer_v2.adam.Adam object at 0x7fe03c35d670>
+
+Generator:Model: "model"
+ 
+_________________________________________________________________
+ 
+ Layer (type)                Output Shape              Param #   
+ 
+=================================================================
+ 
+ input_1 (InputLayer)        [(None, 25)]              0         
+ 
+                                                                 
+ 
+ dense (Dense)               (None, 100)               2600      
+ 
+                                                                 
+ 
+ dense_1 (Dense)             (None, 100)               10100     
+ 
+                                                                 
+ 
+ dense_2 (Dense)             (None, 100)               10100     
+ 
+                                                                 
+ 
+ dense_3 (Dense)             (None, 42)                4242      
+ 
+                                                                 
+ 
+=================================================================
+ 
+Total params: 27,042
+ 
+Trainable params: 27,042
+ 
+Non-trainable params: 0
+ 
+_________________________________________________________________
+ 
+Discriminator:Model: "model"
+ 
+_________________________________________________________________
+ 
+ Layer (type)                Output Shape              Param #   
+ 
+=================================================================
+ 
+ input_1 (InputLayer)        [(None, 42)]              0         
+ 
+                                                                 
+ 
+ dense (Dense)               (None, 100)               4300      
+ 
+                                                                 
+ 
+ dense_1 (Dense)             (None, 100)               10100     
+ 
+                                                                 
+ 
+ dense_2 (Dense)             (None, 1)                 101       
+ 
+                                                                 
+ 
+=================================================================
+ 
+Total params: 14,501
+ 
+Trainable params: 14,501
+ 
+Non-trainable params: 0
+ 
+_________________________________________________________________
+ 
+
+
+Range:tanB: [2, 60]
+mu: [-10000, 10000]
+M1: [50, 5000]
+M2: [50, 5000]
+M3: [50, 5000]
+mA: [50, 5000]
+mQ2_ii: [100, 10000000]
+mQ2_23: [0, 1000]
+mu2_ii: [100, 10000000]
+md2_ii: [100, 10000000]
+md2_23: [0, 1000]
+mL2_ii: [100, 10000000]
+me2_ii: [100, 10000000]
+au_ii: [-10000, 10000]
+au_ij: [-100, 100]
+ad_ii: [-10000, 10000]
+ad_ij: [-100, 100]
+ae_33: [-10000, 10000]

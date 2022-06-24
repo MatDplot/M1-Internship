@@ -1,0 +1,52 @@
+taile dataset: 100
+taile batch: 1
+nombre epochs: 25
+Nombre d'échecs: 66
+Nombre de succes: 2434
+Nombre Warning LSP: 0
+
+Fonctions d'activations: relu
+Fonctions d'activations output: linear
+Optimizer: <keras.optimizer_v2.adam.Adam object at 0x7f6ea042d190>
+
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 4)]               0         
+                                                                 
+ dense (Dense)               (None, 5)                 25        
+                                                                 
+ dense_1 (Dense)             (None, 6)                 36        
+                                                                 
+ dense_2 (Dense)             (None, 7)                 49        
+                                                                 
+ dense_3 (Dense)             (None, 8)                 64        
+                                                                 
+ dense_4 (Dense)             (None, 9)                 81        
+                                                                 
+ dense_5 (Dense)             (None, 10)                100       
+                                                                 
+ dense_6 (Dense)             (None, 11)                121       
+                                                                 
+ dense_7 (Dense)             (None, 12)                144       
+                                                                 
+ dense_8 (Dense)             (None, 13)                169       
+                                                                 
+ dense_9 (Dense)             (None, 14)                196       
+                                                                 
+ dense_10 (Dense)            (None, 15)                225       
+                                                                 
+ dense_11 (Dense)            (None, 16)                256       
+                                                                 
+ dense_12 (Dense)            (None, 17)                289       
+                                                                 
+ dense_13 (Dense)            (None, 18)                324       
+                                                                 
+ dense_14 (Dense)            (None, 19)                361       
+                                                                 
+=================================================================
+Total params: 2,440
+Trainable params: 2,440
+Non-trainable params: 0
+_________________________________________________________________

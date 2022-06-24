@@ -1,0 +1,16 @@
+Data de la run: 2022-06-09-06:25:27/
+Réseau de la run: 2022-06-09-06:25:27/
+ 
+True: 50066
+False: 449934
+ 
+True positive: 19741
+False positive: 11055
+True negative: 438879
+False negative: 30325
+ 
+Positive prediction: 64.1
+Negative prediction: 93.5
+ 
+Sensitivity: 39.4
+Specificity: 97.5

@@ -1,0 +1,28 @@
+taile dataset: 100
+taile batch: 100
+nombre epochs: 50
+Nombre d'échecs: 799
+Nombre de succes: 4201
+
+Fonctions d'activations: relu
+Optimizer: <keras.optimizer_v2.adam.Adam object at 0x7f613c68ddf0>
+
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 19)]              0         
+                                                                 
+ dense (Dense)               (None, 38)                760       
+                                                                 
+ dense_1 (Dense)             (None, 76)                2964      
+                                                                 
+ dense_2 (Dense)             (None, 38)                2926      
+                                                                 
+ dense_3 (Dense)             (None, 19)                741       
+                                                                 
+=================================================================
+Total params: 7,391
+Trainable params: 7,391
+Non-trainable params: 0
+_________________________________________________________________
